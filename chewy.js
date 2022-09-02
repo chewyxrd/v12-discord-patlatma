@@ -109,4 +109,4 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));             //chewy youtube
 });
 
-client.login(ayarlar.token);
+client.login(chewy.token);
