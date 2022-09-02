@@ -1,9 +1,9 @@
 const chalk = require('chalk');
 const moment = require('moment');
 const Discord = require('discord.js');
-const ayarlar = require('../ayarlar.json');            //chewy
+const chewy = require('../chewy.json');            //chewy
 
-var prefix = ayarlar.prefix;
+var prefix = chewy.prefix;
 
 module.exports = client => {              //chewy
 var oyun = [
