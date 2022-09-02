@@ -1,0 +1,16 @@
+{
+  "name": "chewy-v12-patlatma",
+  "version": "1.0.0",
+  "description": "Chewy tarafından kodlanmış Patlatma botu.",
+  "main": "chewy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chewy",
+    "Chewy",
+    "Chewy"
+  ],
+  "author": "Chewy",
+  "license": "MIT"
+}
