@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ayarlar = require('../ayarlar.json');
+const chewy = require('../chewy.json');
 
-var prefix = ayarlar.prefix;
+var prefix = chewy.prefix;
 
 const girismesaj = [
   '**Bot Sunucuya Eklendi',
