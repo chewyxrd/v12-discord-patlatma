@@ -1,17 +1,17 @@
-const ayarlar = require('../ayarlar.json');
-let chewy = new Set();
+const chewy = require('../chewy.json');
+let chewyxd = new Set();
 module.exports = message => {
-  if (chewy.has(message.author.id)) {
+  if (chewyxd.has(message.author.id)) {
     return;
   }
-  chewy.add(message.author.id);
+  chewyxd.add(message.author.id);
     setTimeout(() => {
-    chewy.delete(message.author.id);
+    chewyxd.delete(message.author.id);
   }, 2500);
   let client = message.client;
   if (message.author.bot) return;
-  if (!message.content.startsWith(ayarlar.prefix)) return;
-  let command = message.content.split(' ')[0].slice(ayarlar.prefix.length);         //chewy
+  if (!message.content.startsWith(chewy.prefix)) return;
+  let command = message.content.split(' ')[0].slice(chewy.prefix.length);         //chewy
   let params = message.content.split(' ').slice(1);
   let perms = client.elevation(message);
   let cmd;
